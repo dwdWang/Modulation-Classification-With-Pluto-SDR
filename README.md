@@ -11,13 +11,13 @@ This project is an entry for the 2024 ADI Tongda Cup competition, where it was a
 During the competition, the transmitting end utilizes a vector signal generator (such as the SMBV100A from RS) or a Pluto device to emit various modulated signals, altering the modulation method every five seconds. The receiving end employs another Pluto device to capture the signals and utilizes algorithms to identify the modulation schemes.
 
 ## 运行环境 Operating Environment
-**Matlab 版本：R2024a**  Matlab 应当安装通信常用的工具箱，深度学习工具箱，以及 Pluto SDR 的相关 Toolbox
-**需要两台电脑:** 一台运行发送端代码，一台运行接收端代码
-**需要两台 PLUTO SDR**：一台用于发送，一台用于接收
+- **Matlab 版本：R2024a**  Matlab 应当安装通信常用的工具箱，深度学习工具箱，以及 Pluto SDR 的相关 Toolbox
+- **需要两台电脑:** 一台运行发送端代码，一台运行接收端代码
+- **需要两台 PLUTO SDR**：一台用于发送，一台用于接收
 
-**Matlab Version：R2024a**  Matlab should be installed with commonly used toolboxes for communications, the Deep Learning Toolbox, and the relevant Toolbox for Pluto SDR.  
-**Two computers are required:** One to run the transmitting end code and the other to run the receiving end code.
-**Two PLUTO SDRs are required**: One to send, the other to receive.
+- **Matlab Version：R2024a**  Matlab should be installed with commonly used toolboxes for communications, the Deep Learning Toolbox, and the relevant Toolbox for Pluto SDR.  
+- **Two computers are required:** One to run the transmitting end code and the other to run the receiving end code.
+- **Two PLUTO SDRs are required**: One to send, the other to receive.
 
 ## 功能说明 Function
 1. **可以识别的信号调制方式**：BPSK、QPSK、8PSK、4QAM（QPSK）、16QAM、64QAM、4PAM、FM
