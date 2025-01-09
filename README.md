@@ -27,6 +27,7 @@ During the competition, the transmitting end utilizes a vector signal generator 
 5. **识别距离**：大概 1 米
 6. **缺陷**：对于 64QAM 这类制式，虽然可以较为准确地识别类型，但并不能准确描绘出星座图。原因可能在于接收端的增益过低。
 
+(Function)
 1. **Recognizable Signal Modulation Schemes**: BPSK, QPSK, 8PSK, 4QAM (QPSK), 16QAM, 64QAM, 4PAM, FM  
 2. **Transmitting End Signal**: The signal is baseband data formed by a pseudo-random sequence shaped with a 0.35 root-raised cosine filter.  
 3. **Carrier Frequency**: 1.8 GHz  
@@ -40,6 +41,7 @@ During the competition, the transmitting end utilizes a vector signal generator 
 3. **接收端的代码**：直接运行 `testwithpluto_onlyreceive.m` 即可
 4. **其他代码**：总体功能与示例代码保持一致，但是为了适应比赛要求而做了一些改动
 
+(About the Code)
 1. **Reference**: This code is developed based on Matlab's example code, at: https://ww2.mathworks.cn/help/deeplearning/ug/modulation-classification-with-deep-learning.html
 2. **Transmitting End Code**: Simply run `testwithpluto_onlysend.m`.  
 3. **Receiving End Code**: Simply run `testwithpluto_onlyreceive.m`.  
